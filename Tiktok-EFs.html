@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Directory</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600&display=swap" rel="stylesheet">
+
+<style>
+    * {
+        box-sizing: border-box;
+        -webkit-tap-highlight-color: transparent;
+    }
+
+    body {
+        margin: 0;
+        background: #0a0a0c;
+        color: #e8e8e8;
+        font-family: "Cormorant Garamond", serif;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+    }
+
+    .container {
+        width: 90%;
+        max-width: 420px;
+        padding: 50px 35px;
+        background: #111114;
+        border: 1px solid #1c1c22;
+        border-radius: 6px;
+        box-shadow: 0 0 25px rgba(255,255,255,0.04);
+        animation: fadeIn 0.8s ease forwards;
+    }
+
+    h1 {
+        text-align: center;
+        margin: 0 0 40px 0;
+        font-size: 22px;
+        font-weight: 600;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+        color: #ffffff;
+        text-shadow: 0 0 6px rgba(255,255,255,0.15);
+    }
+
+    a {
+        display: block;
+        text-decoration: none;
+        color: #dcdcdc;
+        background: #151519;
+        margin: 14px 0;
+        padding: 16px;
+        border-radius: 4px;
+        font-size: 17px;
+        letter-spacing: 0.5px;
+        transition: background 0.25s ease, transform 0.2s ease, box-shadow 0.25s ease;
+        animation: slideUp 0.7s ease forwards;
+    }
+
+    a:nth-of-type(1) { animation-delay: 0.1s; }
+    a:nth-of-type(2) { animation-delay: 0.2s; }
+    a:nth-of-type(3) { animation-delay: 0.3s; }
+    a:nth-of-type(4) { animation-delay: 0.4s; }
+    a:nth-of-type(5) { animation-delay: 0.5s; }
+
+    a:hover {
+        background: #1c1c22;
+        box-shadow: 0 0 10px rgba(255,255,255,0.08);
+    }
+
+    a:active {
+        transform: scale(0.97);
+    }
+
+    @keyframes fadeIn {
+        from { opacity: 0; transform: translateY(10px); }
+        to { opacity: 1; transform: translateY(0); }
+    }
+
+    @keyframes slideUp {
+        from { opacity: 0; transform: translateY(8px); }
+        to { opacity: 1; transform: translateY(0); }
+    }
+
+</style>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Directory</h1>
+
+        <a href="https://www.theguardian.com/us-news/2026/jan/22/tiktok-us-venture-oracle?utm_source=chatgpt.com" target="_blank"> Tiktok's new ownership </a>
+        <a href="https://en.wikipedia.org/wiki/Larry_Ellison?utm_source=chatgpt.com" target="_blank">Larry Ellison</a>
+        <a href="https://www.justice.gov/epstein/files/DataSet%2010/EFTA01880159.pdf" target="_blank">Larry Ellison In the Epstein Files</a>
+        <a href="https://www.google.com/imgres?imgurl=https://static01.nyt.com/images/2014/09/28/magazine/28ellisonisland_ss-slide-GVYQ/28ellisonisland_ss-slide-GVYQ-superJumbo.jpg&tbnid=hG-TRoUcf27sWM&vet=1&imgrefurl=https://www.nytimes.com/2014/09/28/magazine/larry-ellison-island-hawaii.html&docid=FuZ_suZD_BByBM&w=2048&h=1365&source=sh/x/im/m1/0&kgs=1be3e899c9b4f5e6&shem=shrtsdl&utm_source=shrtsdl,sh/x/im/m1/0">Larry Ellison's Private island</a>
+    </div>
+</body>
+</html>
